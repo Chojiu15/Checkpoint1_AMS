@@ -80,3 +80,63 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  height: 10vh;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.desktop {
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  }
+
+
+
+.contents {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.contents .disabled {
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 700px) {
+  .avatar img {
+    display: none;
+  }
+
+  .skills {
+    display: block;
+  }
+}
