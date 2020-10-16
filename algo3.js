@@ -21,7 +21,6 @@ function theaterSieges() {
     const seatsArray = []
     for (seat = 1;seat<27;seat++) {
         for (column = 1; column<101; column++) {
-            //seatsArray.push(`Column: ${column} - Seat: ${seat}`)
             seatsArray.push(`${seat} - ${column}`)
         }
     }
