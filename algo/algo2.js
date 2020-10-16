@@ -8,9 +8,11 @@ Note bene: To check whether a number is divisible by another, you should use the
 */
 
 function isLeapYear(year) {
-  // TODO: Your code here
+  if(year % 4 === 0 && year % 100 !== 0)
+      return year="true"
+      else 
+      return year="false"
 }
-
 console.log("1900: ",isLeapYear(1900)); // should be false
 console.log("2000: ",isLeapYear(2000)); // should be true
 console.log("2004: ",isLeapYear(2004)); //should be true

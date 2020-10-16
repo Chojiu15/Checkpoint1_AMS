@@ -19,5 +19,5 @@ const people = [
 ];
 
 function findAdults(arr) {
-  // Your code here !
+ 
 }
