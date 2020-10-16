@@ -8,6 +8,13 @@ thirdAngle(20, 80) should return 80
 
 function thirdAngle(a, b) {
   // Your code here !
+  if(a + b < 180){
+    return(180 - (a + b))
+  }
+  else{
+    console.log("not a triangle")
+  }
+
 }
 
 console.log(thirdAngle(90, 30));
