@@ -20,4 +20,16 @@ const people = [
 
 function findAdults(arr) {
   // Your code here !
+
+  if(people.age >=18 && people.sex == "female"){
+    console.log(people.map.age)
+  }
+  else if(people.age >=18 && people.sex == "male"){
+      console.log(people)
+  }
+  
 }
+
+findAdults()
+
+console.log([people.age])
