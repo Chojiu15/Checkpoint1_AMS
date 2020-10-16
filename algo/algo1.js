@@ -6,9 +6,11 @@ thirdAngle(90, 30) should return 60
 thirdAngle(20, 80) should return 80
 */
 
-function thirdAngle(a, b) {
-  // Your code here !
-}
+// function thirdAngle(a, b) {
+//   // Your code here !
+// }
 
-console.log(thirdAngle(90, 30));
-console.log(thirdAngle(20, 80));
+// console.log(thirdAngle(90, 30));
+// console.log(thirdAngle(20, 80));
+let count = {a:1,b:2}
+console.log(count['a'])
