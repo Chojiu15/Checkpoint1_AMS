@@ -1,3 +1,28 @@
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+ 
+}
+@media only screen and (max-width: 700px) {
+  main {
+    display: flex;
+  }
+}
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
 .pink-bg {
   background-color: pink;
 }
