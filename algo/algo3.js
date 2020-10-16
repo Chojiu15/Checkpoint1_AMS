@@ -16,7 +16,18 @@ Your final list should like this:
 */
 
 function theaterSieges() {
-  // Your code here !
-}
+  emptyArr=[]
+  for (let i=1; i<=26; i++) {
+  emptyArr.push([i])
+  }
+  emptyArr2=[]
+  for (let j=0; j<=100; j++) {
+  emptyArr2.push([j])
+  }
+  layout= emptyArr.map(s => emptyArr2.map(m=> `${s} - ${m}`));
+  console.log(layout)
 
-console.log(theaterSieges());
+}
+theaterSieges()
+
+console.log(layout)
