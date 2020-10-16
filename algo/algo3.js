@@ -16,7 +16,15 @@ Your final list should like this:
 */
 
 function theaterSieges() {
-  // Your code here !
-}
+    // Your code here !
 
-console.log(theaterSieges());
+    const seatsArray = []
+    for (seat = 1;seat<27;seat++) {
+        for (column = 1; column<101; column++) {
+            seatsArray.push(`${seat} - ${column}`)
+        }
+    }
+    return seatsArray
+}
+  
+  console.log(theaterSieges());
