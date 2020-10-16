@@ -15,8 +15,19 @@ Your final list should like this:
   26-100
 */
 
+colum = []
 function theaterSieges() {
+  let finalArray =[]
+  for(let seats=1;seats<27; seats++){
+    //finalArray.push(seats)
+    for(let columns=1; columns<101;columns++){
+      finalArray.push(`${seats} - ${columns}`)
+    }
+
+  }
+  return finalArray
+  }  
   // Your code here !
-}
+
 
 console.log(theaterSieges());

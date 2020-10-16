@@ -16,7 +16,14 @@ a {
 .navbar {
   display: flex;
   margin: 15px 30px;
+  justify-content: space-between;
+  align-items: center;
 }
+/* .navbar .menu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+} */
 
 .logo {
   max-height: 3rem;

@@ -18,6 +18,18 @@ const people = [
   { name: "Penelope Cruz", age: 47, sex: "female" }
 ];
 
+
 function findAdults(arr) {
+  for(let i=0; i<people.length;i++){
+    const fName = people.map(fem => fem.age>18 && fem.sex == 'female');
+    return fName;
+    
+  }
+
+  
+  const mName = people.map(mal => mal.age>18 && mal.sex == 'male');
+  return mName;
+  const allAdult = fName.concat(mName);
   // Your code here !
 }
+//console.log(findAdults());
